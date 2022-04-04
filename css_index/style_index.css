@@ -1,0 +1,30 @@
+aside{
+	width: 30%;
+	background-color: skyblue;
+	font: italic;
+	margin-left: 15px;
+	padding-left: 10px;
+	float: right;
+}
+.button{
+	padding: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+
+}
+.button_g{
+	color: green;
+	background-color: white;
+	border: 3px solid;
+}
+.button_g:hover{ background-color: #4CAF50;
+ color: black; }
+.button_r{
+	color: red;
+	background-color: white;
+	border: 3px dotted;
+}
+.button_r:hover{
+	background-color: red;
+	color: white;
+}
